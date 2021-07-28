@@ -1,0 +1,106 @@
+<html>
+	<head>
+		<title>
+		 EVENT REGISTRATION FORM
+		</title>
+	</head>
+	<body bgcolor ="#ffff66">
+	<h1 align ="center" style = "color:#993366;font-size:200%;"><b>&#127882 WELCOME HERE !! &#127882</b></h1>
+	<h1 align ="center" style = "color:#ff3300;font-size:200%;"><b><i>...PARTICIPANT DETAILS...</i></b></h1>
+	<center>
+		<form action="event2.htm">
+		<table border="0" color = "pink">
+		<colgroup>
+		<col span="1" bgcolor="#00e6e6">
+		<col bgcolor="	 #ff80b3">
+	</colgroup>
+		<tbody>
+			<tr>
+			<th><label for="NAME";><b>NAME:</b></label></th>
+			<th><input type="text" id="fname" name="fname" pattern="[A-Z]{,25}"required><br></th>
+			</tr>
+			<tr>
+			<th><label for="DATE OF BIRTH" ><b>DATE OF BIRTH:<b></label></th>
+			<th><input type="date" id="date" name="date" required><br><br></th>
+			</tr>
+			<tr>
+			<th><label for="GENDER" ><b>GENDER:</b></label></th>
+			<th><input type="radio" id="male" name="gender" value="Male">MALE
+			    <input type="radio" id="female" name="gender" value="Female">FEMALE
+				<input type="radio" id="others" name="gender" value="Others">OTHERS
+			</th>
+			</tr>
+			<tr>
+			<th><label for="mail" required><b>EMAIL ID:</b></label></th>
+			<th><input type="email" id="mail" name="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></th>
+			</tr>
+			<tr>
+			<th><label for="mobile"><b>MOBILE NUMBER:</b></label></th>
+			<th><input type="PASSWORD" id="mobile" name="mobile" maxlength="10" pattern="[0-9]{10}" required></th>
+			</tr>
+			<tr>
+			<th><label for="address" required><b>ADDRESS:</b></label></th>
+			<th><textarea id="address" name="address" required></textarea></th>
+			</tr>
+			<tr>
+			<th><label for="STATE"><b>STATE:</b></label></th>
+			<th><select name="STATE" id="STATE">
+			<option value="s1">Choose State</option>
+			<option value="s2">Andhra Pradesh</option>
+			<option value="s3">Arunachal Pradesh</option>
+			<option value="s4">Assam</option>
+			<option value="s5">Bihar</option>
+			<option value="s6">Chhattisgarh	</option>
+			<option value="s7">Goa</option>
+			<option value="s8">Gujarat</option>
+			<option value="s9">Himachal pradesh</option>
+			<option value="s10">Haryana</option>
+			<option value="s11">Jharkand</option>
+			<option value="s12">Karnataka</option>
+			<option value="s13">Kerala</option>
+			<option value="s14">Madhya Pradesh</option>
+			<option value="s15">Maharasthra</option>
+			<option value="s16">Manipur</option>
+			<option value="s17">Meghlaya</option>
+			<option value="s18">Mizoram</option>
+			<option value="s19">Nagaland</option>
+			<option value="s20">Odisha</option>
+			<option value="s21">Punjab</option>
+			<option value="s22">Rajasthan</option>
+			<option value="s23">Sikkim</option>
+			<option value="s24">Tamilnadu</option>
+			<option value="s25">Telungana</option>
+			<option value="s26">Tirpura</option>
+			<option value="s27">Uttarpradesh</option>
+			<option value="s28">Uthrakand</option>
+			<option value="s29">West bengal</option>
+  </select></th>
+			</tr>
+			<tr>
+			<th><label for="pin"><b>PIN CODE:</b></label></th>
+			<th><input type="text" id="pin" name="pin" maxlength="6"  pattern="[0-9]{6}" required></th>
+			</tr>
+			<tr>
+			<th><label for="accomodation" ><b>ACCOMODATION REQUIRED:</b></label></th>
+			<th><input type="radio" id="YES" name="acc" value="yes">YES
+			    <input type="radio" id="NO" name="acc" value="no">NO</th>
+			</tr>
+			<tr>
+			<th><label for="events" ><b>INTERESTED FIELDS:</b></label></th>
+			<th><input type="checkbox" id="politics" name="acc" value="yes">POLITICS
+			    <input type="checkbox" id="sports" name="acc" value="no">SPORTS<br>
+				<input type="checkbox" id="technology" name="acc" value="yes">TECHNOLOGY
+			    <input type="checkbox" id="economics" name="acc" value="no">ECONOMICS<br>
+				<input type="checkbox" id="e-commerce" name="acc" value="yes">COMMERCE
+			    <input type="checkbox" id="Science" name="acc" value="no">SCIENCE<br>
+				<input type="checkbox" id="medicine" name="acc" value="no">MEDICINE
+				<input type="checkbox" id="health" name="acc" value="no">HEALTH</th>
+			</tr>
+			</tbody>
+		</table>
+		<p> </p>
+		<input type="submit" value="REGISTER" style="font-size:20;"width="50" height="50">
+		</form>
+		</center>
+	</body>
+</html>
