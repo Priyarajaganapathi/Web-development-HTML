@@ -1,0 +1,105 @@
+<html>
+	<title>
+	    ORDER NOW
+	</title>
+	<style>
+	#order1
+	{ 
+		text-align:center;
+		margin-top:60px;
+	}
+	#fname
+	{ 
+	margin-left:80px;
+    }	
+	#address
+	{ 
+	margin-left:50px;
+	}
+	#mobile
+	{
+	margin-left:0px;
+	color:#ffff99;
+    }	
+	#mail
+	{
+		margin-left:70px;
+	}
+    #detail
+	{  
+		font-family: "serif", 'Rockwell';
+		font-weight:bold;
+		color:#660033;
+		font-size:20px;
+	}
+	body{ 
+		background-image:url("order.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		}
+	#detail1
+		{
+		font-family: "serif", 'Rockwell';
+		font-weight:bold;
+		color:#660033;
+		font-size:20px;
+		margin-left:235px;
+		}
+		#detail2
+		{
+		font-family: "serif", 'Rockwell';
+		font-weight:bold;
+		color:#660033;
+		font-size:20px;
+		margin-left:65px;
+		text-decoration:overline;
+		}
+		#detail3
+		{ 
+		font-size:30px;
+		font-family: "Sofia", "sans-serif";
+		background-color:#ff3300;
+		color:yellow;
+		overflow:visible;
+		}
+		#button
+		{
+			border:none;
+			background-color:#ff3300;
+			font-size:20px;
+			cursor:pointer;
+			padding:10px;
+			color:yellow;
+		}
+		
+	</style>
+	<body> 
+	   <h1 align="center" id="detail3">ORDER DETAILS!!</h1>
+	   <div id="order1">
+	    <a id="detail">NAME:</a>
+		<input type="text" id="fname" name="fname" pattern="[A-Z]{,25}"required>
+		<p> </p>
+		<a id="detail">MAIL ID:</a>
+		<input type="email" id="mail" name="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+		<p> </p>
+		<a id="detail">MOBILE NUMBER:</a>
+		<input type="PASSWORD" id="mobile" name="mobile" maxlength="10" pattern="[0-9]{10}" required>
+		<p> </p>
+		<a id="detail">ADDRESS:</a>
+		<textarea id="address" name="fname" required></textarea>
+		<p></p>
+		<a id="detail">AMOUNT PAYABLE:Rs.150</a>
+		<p id="detail1">                 -75</p>
+		<a id="detail">TOTAL AMOUNT:</a>
+		<a id="detail2">                 =75</a>
+		<p></p>
+		 <div id="detail">
+				<input type="radio" id="male" name="gender" value="Male">Debit card
+			    <input type="radio" id="female" name="gender" value="Female">UPI
+				<input type="radio" id="others" name="gender" value="Others">Cash on Delivery
+		  </div>
+		  <p></p>
+		<button  id="button">CONFIRM ORDER</button>
+		</div>
+	</body>
+</html>
