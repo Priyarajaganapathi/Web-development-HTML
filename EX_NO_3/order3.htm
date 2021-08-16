@@ -1,0 +1,110 @@
+<html>
+	<title>
+	    ORDER NOW
+	</title>
+	<style>
+	#order1
+	{ 
+		text-align:center;
+		margin-top:20px;
+	}
+	#fname
+	{ 
+	margin-left:80px;
+    }	
+	#address
+	{ 
+	margin-left:50px;
+	}
+	#mobile
+	{
+	margin-left:0px;
+    }	
+	#mail
+	{
+		margin-left:70px;
+	}
+    #detail
+	{  
+		font-family: "serif", 'Rockwell';
+		font-weight:bold;
+		color:#660033;
+		font-size:20px;
+	}
+	body{ 
+		background-image:url("https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-recruitment-recruit-poster-ad-image_28029.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		}
+	#detail1
+		{
+		font-family: "serif", 'Rockwell';
+		font-weight:bold;
+		color:#660033;
+		font-size:20px;
+		margin-left:235px;
+		}
+		#detail2
+		{
+		font-family: "serif", 'Rockwell';
+		font-weight:bold;
+		color:#660033;
+		font-size:20px;
+		margin-left:65px;
+		text-decoration:overline;
+		}
+		#detail3
+		{ 
+		font-size:30px;
+		font-family: "Sofia", "sans-serif";
+		background-color:#ff3300;
+		color:yellow;
+		overflow:visible;
+		}
+		#button
+		{
+			border:none;
+			background-color:#ff3300;
+			font-size:20px;
+			cursor:pointer;
+			padding:10px;
+			color:yellow;
+			text-decoration:none;
+			margin-top:10px;
+			border-radius:5px 5px 5px 5px;
+		}
+		
+	</style>
+	<body> 
+	   <h1 align="center" id="detail3">ORDER DETAILS!!</h1>
+	   <a href="page2.htm" style="color:#ff3300;text-decoration:none;font-size:40px;">&#11013</a>
+	   <div id="order1">
+	    <form action="confirm.htm">
+	    <a id="detail">NAME:</a>
+		<input type="text" id="fname" name="fname" pattern="[A-Z]{,25}"required>
+		<p> </p>
+		<a id="detail">MAIL ID:</a>
+		<input type="email" id="mail" name="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+		<p> </p>
+		<a id="detail">MOBILE NUMBER:</a>
+		<input type="PASSWORD" id="mobile" name="mobile" maxlength="10" pattern="[0-9]{10}" required>
+		<p> </p>
+		<a id="detail">ADDRESS:</a>
+		<textarea id="address" name="fname" required></textarea>
+		<p></p>
+		<a id="detail">AMOUNT PAYABLE:Rs.200</a>
+		<p id="detail1">                 -80</p>
+		<a id="detail">TOTAL AMOUNT:</a>
+		<a id="detail2">                 =120</a>
+		<p></p>
+		 <div id="detail">
+				<input type="radio" id="male" name="gender" value="Male">Debit card
+			    <input type="radio" id="female" name="gender" value="Female">UPI
+				<input type="radio" id="others" name="gender" value="Others">Cash on Delivery
+		  </div>
+		  <p></p>
+		<input type="submit" id="button" href="confirm.htm">
+		</div>
+		</form>
+	</body>
+</html>
