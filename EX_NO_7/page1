@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>STUDENT DETAILS FORM</title>
+        <style>
+            .b {
+               background-color: #4CAF50;
+               border: none;
+               color: white;
+               padding: 15px 32px;
+               text-align: center;
+               text-decoration: none;
+               display: inline-block;
+               font-size: 16px;
+               margin: 4px 2px;
+              cursor: pointer;
+            }
+        </style>
+    </head>
+    <body style="background-color:#ffb3b3;">
+        <center><h2>STUDENT REGISTRATION FORM</h2></center>
+        <center> <form action="http://localhost:8000/login" method="post">
+        <div style="background-color:#ffe6e6; margin-top:100px; margin-bottom:100px; margin-left:150px; margin-right:150px;">
+      
+            <br>
+            <br>
+            STUDENT NAME:<input type="text" name="name" value="">
+            <br>
+            <br>
+           ROLL NUMBER:<input type="text" name="roll" value="">
+            <br>
+            <br>
+           DEPARTMENT: <input type="text" name="dept" value="">
+           <br>
+           <br>
+            SELECT YOUR GENDER:
+            <br><br>
+            <input type="radio" id="FEMALE" name="gender" value="female">
+            <label for="g"> female</label>
+            <input type="radio" id="MALE" name="gender" value="Male">
+            <label for="g">male</label>
+            <input type="radio" id="others" name="gender" value="Other">
+            <label for="g">other</label>
+            <br><br>
+            STUDENT EMAIL: <input type="email" name="email" value="">
+            <br>
+            <br>
+            MOBILE NUMBER: <input type="text" name="mob" value="">
+            <br>
+            <br>
+            <label for ="ste">YEAR OF STUDY:</label>
+            <select name="yr" id="yr">
+            <option value="I">I</option>
+            <option value="II">II</option>
+            <option value="III">III</option>
+            <option value="IV">IV</option>
+            </select>
+            <br>
+            <br>
+            
+        </div>
+        <input class="b" type="submit" name="submit" value="submit">
+     </form></center>
+    </body>
+</html>

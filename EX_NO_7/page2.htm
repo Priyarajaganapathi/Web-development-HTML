@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>STUDENT DETAILS FORM</title>
+        <style>
+         #div1
+		 {
+          background-color: #660000; 
+		  margin-top:50px; 
+		  margin-bottom:50px;
+		  margin-left:250px;
+		  margin-right:250px;
+		  border-radius:0px 100px 100px 100px;	
+		  font-size:20px;		  
+		 } 
+		 body
+		 {
+			color:white;
+		 }
+		 #a,#b,#c,#e,#f,#data
+		 { 
+		   border-radius:10px;
+		   
+		 }
+		 #un
+		 { 
+		   text-decoration:underline;
+		 } 
+		 #but
+		 {  
+		    background-color:#660000;
+			color:white;
+			font-size:20px;
+			border:none;
+			padding:10px;
+			border-radius:0px 10px 10px 10px;
+		}
+        </style>
+    </head>
+    <body style="background-color:white;">
+    
+        <center> <form action="http://localhost:8000/login" method="get">
+        <div id="div1">
+		<br>
+           <h3 id="un">APPLICATION FORM[GET METHOD]</h3>
+            <br>
+            <b>STUDENT NAME:</b>&nbsp <input type="text" name="name" id="a" value="" width="48" height="48">
+            <br>
+            <br>
+            <b>ROLL NUMBER: </b>&nbsp&nbsp<input type="text" name="roll" id="b" value="">
+            <br>
+            <br>
+            <b>DEPARTMENT: </b>&nbsp&nbsp&nbsp&nbsp<input type="text" name="dept" id="c"value="">
+           <br>
+           <br>
+           <b>SELECT YOUR GENDER:</b>
+            <br><br>
+            <input type="radio" id="FEMALE" name="gender" value="female" id="d">
+			 <label for="g"><b>Female</b></label>
+            <input type="radio" id="MALE" name="gender" value="Male">
+            <label for="g"><b>Male</b></label>
+            <input type="radio" id="others" name="gender" value="Other">
+            <label for="g"><b>Other</b></label>
+            <br><br>
+            <b>STUDENT EMAIL: </b><input type="email" name="email" value=""id="e">
+            <br>
+            <br>
+            <b>MOBILE NUMBER:</b><input type="text" name="mob" value="" id="f">
+            <br>
+            <br>
+            <b>YEAR OF STUDY:</b>&nbsp&nbsp&nbsp
+            <select name="yr" id="yr">
+            <option value="I">I</option>
+            <option value="II">II</option>
+            <option value="III">III</option>
+            <option value="IV">IV</option>
+            </select>
+            <br>
+            <br>
+        </div>
+        <input class="b" type="submit" name="submit" value="Submit" id="but">
+     </form></center>
+    </body>
+</html>
