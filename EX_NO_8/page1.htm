@@ -1,0 +1,65 @@
+<html> 
+    <head>
+        <style>
+            body
+            { 
+                background-color:blanchedalmond;
+            }
+            #add,#sub,#mul,#div
+            { 
+               color:white;
+               font-size: 25px;
+               background-color: #ff4d4d; 
+               padding-left:20px;
+               padding-right:20px;
+               padding-top:10px;
+               padding-bottom:10px;
+            }
+            #eq
+            { 
+                color:white;
+                font-size: 25px;
+                background-color: green;
+                padding-left:20px;
+                padding-right:20px;
+                padding-top:10px;
+                padding-bottom:10px;
+            } 
+            #frame
+            { 
+                margin-left: 300px;
+                margin-right: 300px;
+                margin-top:200px;
+                padding:20px;
+            } 
+            #n1,#n2,#n3
+            { 
+                font-size:20px;
+                color:black;          
+          }
+        </style>
+
+    </head>
+    <body>
+        <center>
+        <div id="frame">
+        <div>
+        </br></br>
+        <input type="text" id="n1" name="num1" required>
+        &nbsp;
+        <input type="text" id="n2" name="num2" required>
+        </div></br></br>
+        <div> 
+            <form>
+            <button id="add" formaction="http://localhost:8000/calci/add" type="submit" ><b> + </b></button> 
+            <button id="sub" formaction="http://localhost:8000/calci/sub"><b> - </b></button>
+            <button id="mul" formaction="http://localhost:8000/calci/mul"><b> *</b></button>
+            <button id="div" formaction="http://localhost:8000/calci/div" ><b> / </b></button>
+            </br></br>
+           
+        </form>
+        </div>
+        </div>
+        </center>
+    </body>
+</html>

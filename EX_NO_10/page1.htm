@@ -1,0 +1,58 @@
+
+<html>
+    <head>
+      <title>CGPA CALCULATOR</title>
+      <link rel="stylesheet" href="cgpa.css" />
+    </head>
+    <style>
+      #appear1,#appear3
+    { 
+      background-color: #001f33;
+      font-size:15px;
+    } 
+    #a,#b,#c,#d,#k,#l,#m,#n
+    {
+        background-color:#ffff99;color:#2d2d86;
+        font-weight: bold;
+    }    
+    body
+    { 
+      background-size:cover;
+      font-family: "Gill Sans", 'sans-serif';
+      color:white;
+    } 
+    #btn1
+    {  
+      border-radius:20px;
+      padding:10px;
+      background-color:#ff80ff;
+      font-weight: bold;
+    }
+    button:hover
+    { 
+     box-shadow:3px 3px white;
+     }
+    </style>
+    <body>
+        <center>
+      <div id="appear1">
+        <br/><br/>
+        <div class="head"><h1 style="text-decoration: underline;">CGPA CALCULATOR</h1></div><br/>
+        <label id="1"><b>SEMESTER 1</b></label><input type="text" id="a" /><br/><br/><br/>
+        <label><b>SEMESTER 2</b></label><input type="text" id="b" /><br/><br/><br/>
+        <label><b>SEMESTER 3</b></label><input type="text" id="c" /><br /><br/><br/>
+        <label><b>SEMESTER 4</b></label><input type="text" id="d" /><br /><br/><br/>
+        <label><b>SEMESTER 5</b></label><input type="text" id="k" /><br /><br/><br/>
+        <label><b>SEMESTER 6</b></label><input type="text" id="l" /><br /><br/><br/>
+        <label><b>SEMESTER 7</b></label><input type="text" id="m" /><br /><br/><br/>
+        <label><b>SEMESTER 8</b></label><input type="text" id="n" /><br /><br/><br/>
+        <button id="btn1" type="button">GENERATE</button> <br/><br/>
+        <div id="appear3">
+        <div ><h2 id="cgpa"></h2></div>
+        
+        <div><h2 id="percentage"></h2></div>
+      </div> </div>
+    </center>
+    </body>
+    <script src="cgpa.js"></script>
+  </html>
